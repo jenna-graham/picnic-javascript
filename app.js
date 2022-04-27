@@ -21,3 +21,9 @@ const pickBread = document.getElementById('bread');
 pickBread.addEventListener('click', () => {
     pickBread.classList.toggle('picked');
 });
+
+const pickWatermelon = document.getElementById('watermelon');
+
+pickWatermelon.addEventListener('click', () => {
+    pickWatermelon.classList.toggle('picked');
+});
