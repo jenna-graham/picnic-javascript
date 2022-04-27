@@ -2,30 +2,35 @@ const pickSoda = document.getElementById('soda');
 const button = document.getElementById('button');
 
 pickSoda.addEventListener('click', () => {
+    console.log('you clicked the soda!');
     pickSoda.classList.toggle('picked');
 });
 
 const pickCheese = document.getElementById('cheese');
 
 pickCheese.addEventListener('click', () => {
+    console.log('you clicked the cheese!');
     pickCheese.classList.toggle('picked');
 });
 
 const pickGrapes = document.getElementById('grapes');
 
 pickGrapes.addEventListener('click', () => {
+    console.log('you clicked the grapes!');
     pickGrapes.classList.toggle('picked');
 });
 
 const pickBread = document.getElementById('bread');
 
 pickBread.addEventListener('click', () => {
+    console.log('you clicked the bread!');
     pickBread.classList.toggle('picked');
 });
 
 const pickWatermelon = document.getElementById('watermelon');
 
 pickWatermelon.addEventListener('click', () => {
+    console.log('you clicked the watermelon!');
     pickWatermelon.classList.toggle('picked');
 });
 
