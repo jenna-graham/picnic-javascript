@@ -9,3 +9,9 @@ const pickCheese = document.getElementById('cheese');
 pickCheese.addEventListener('click', () => {
     pickCheese.classList.toggle('picked');
 });
+
+const pickGrapes = document.getElementById('grapes');
+
+pickGrapes.addEventListener('click', () => {
+    pickGrapes.classList.toggle('picked');
+});
