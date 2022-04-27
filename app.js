@@ -15,3 +15,9 @@ const pickGrapes = document.getElementById('grapes');
 pickGrapes.addEventListener('click', () => {
     pickGrapes.classList.toggle('picked');
 });
+
+const pickBread = document.getElementById('bread');
+
+pickBread.addEventListener('click', () => {
+    pickBread.classList.toggle('picked');
+});
